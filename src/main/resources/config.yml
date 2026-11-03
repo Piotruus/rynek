@@ -1,0 +1,17 @@
+auction-duration-hours: 24
+commission-percent: 3.0
+limits:
+  default: 3
+  vip: 5
+  svip: 8
+  mvip: 10
+  fire: 15
+  goat: 15
+rank-permissions:
+  vip: auctionhouse.limit.vip
+  svip: auctionhouse.limit.svip
+  mvip: auctionhouse.limit.mvip
+  fire: auctionhouse.limit.fire
+  goat: auctionhouse.limit.goat
+messages:
+  prefix: "&8[&aRynek&8] "

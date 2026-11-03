@@ -1,0 +1,23 @@
+name: AuctionHouse
+version: 1.1.0
+main: pl.tworzyfilmy.auctionhouse.AuctionHousePlugin
+api-version: '1.21'
+softdepend: [Vault]
+commands:
+  ah:
+    description: Rynek graczy
+    usage: /ah <open|search|sell|my|collect>
+    aliases: [rynek]
+permissions:
+  auctionhouse.admin:
+    default: op
+  auctionhouse.limit.vip:
+    default: false
+  auctionhouse.limit.svip:
+    default: false
+  auctionhouse.limit.mvip:
+    default: false
+  auctionhouse.limit.fire:
+    default: false
+  auctionhouse.limit.goat:
+    default: false
